@@ -1,0 +1,3 @@
+npm install <name of package> --save-dev(put it into devdependencies- just needed while developing)
+or
+npm install <name of package> (put it into dependencies)

@@ -2,9 +2,10 @@
   "name": "project1-blog",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "nodemon --inspect app.js",
+    "start": "nodemon --inspect src/app.js",
+    "watch": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,9 +25,12 @@
   },
   "homepage": "https://github.com/L1nberal/nodejs-blog#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
   }
 }
