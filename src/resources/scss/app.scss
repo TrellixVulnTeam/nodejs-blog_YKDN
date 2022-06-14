@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 @import 'variables';
 
-*{
+* {
     box-sizing: border-box;
     /* 
         + Explanations:
@@ -10,21 +10,20 @@
      */
 }
 
-body{
+body {
     margin: 0px;
 }
 
 /* ===================================Header====================================== */
 
-header{
+header {
     width: 1250px;
     margin: 0px auto;
     margin-bottom: 50px;
 }
 
-
 /* ========================header-nav===================== */
-header nav ul{
+header nav ul {
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -33,32 +32,32 @@ header nav ul{
     justify-content: center;
 }
 
-header nav ul li{
+header nav ul li {
     list-style: none;
     display: block;
     margin: 0px 20px;
     cursor: pointer;
 }
 
-header nav ul li:hover{
+header nav ul li:hover {
     color: rgb(159, 125, 82);
 }
 /* ======================end of header-nav=========================== */
 
 /* =================================Header-container======================== */
 
-.header-container{
+.header-container {
     margin: 20px 0px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.header-container__logo a img{
+.header-container__logo a img {
     width: 300px;
 }
 
-.header-container__search-bar{
+.header-container__search-bar {
     border: solid 1px rgb(159, 159, 159);
     width: 580px;
     height: 40px;
@@ -67,27 +66,26 @@ header nav ul li:hover{
     padding: 0px 15px;
 }
 
-.header-container__search-bar input{
+.header-container__search-bar input {
     border: 0px;
     outline: 0px;
     width: 100%;
-
 }
 
-.header-container__search-bar .fa-magnifying-glass{
+.header-container__search-bar .fa-magnifying-glass {
     font-size: 20px;
     padding: 9px 2px 9px 12px;
     cursor: pointer;
     border-left: solid 1px rgb(220, 218, 218);
 }
 
-.header-container a{
+.header-container a {
     text-decoration: none;
     color: black;
     text-transform: capitalize;
 }
 
-.header-container__user{
+.header-container__user {
     min-width: auto;
     padding: 0px 12px;
     height: 40px;
@@ -100,12 +98,12 @@ header nav ul li:hover{
     position: relative;
 }
 
-.header-container__user .fa-circle-user{
+.header-container__user .fa-circle-user {
     font-size: 18px;
     margin-right: 5px;
 }
 
-.header-container__user .username .submenu{
+.header-container__user .username .submenu {
     width: 150px;
     height: 60px;
     position: absolute;
@@ -116,38 +114,34 @@ header nav ul li:hover{
     display: none;
     align-items: center;
     overflow: hidden;
-    
 }
 
-.header-container__user:hover .username .submenu{
+.header-container__user:hover .username .submenu {
     display: flex;
 }
 
-.header-container__user .username .submenu ul{
+.header-container__user .username .submenu ul {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    
 }
 
-.header-container__user .username .submenu ul li{
+.header-container__user .username .submenu ul li {
     list-style: none;
     display: block;
     font-size: 18px;
     width: 100%;
     height: 30px;
     text-indent: 10px;
-    
 }
 
-.header-container__user .username .submenu ul li:hover{
+.header-container__user .username .submenu ul li:hover {
     background-color: rgb(32, 30, 30);
     color: rgb(191, 191, 191);
 }
 
-
-.header-container__cart{
+.header-container__cart {
     width: 42px;
     height: 42px;
     border: solid 1px rgb(159, 159, 159);
@@ -158,7 +152,7 @@ header nav ul li:hover{
     cursor: pointer;
 }
 
-.header-container__cart .fa-cart-arrow-down{
+.header-container__cart .fa-cart-arrow-down {
     font-size: 20px;
 }
 
@@ -166,7 +160,7 @@ header nav ul li:hover{
 /* ==============================End of Header=================================== */
 
 /* ==================================Content===================================== */
-.wrapper-content{
+.wrapper-content {
     width: 1250px;
     height: auto;
     margin: 0px auto;
@@ -176,7 +170,7 @@ header nav ul li:hover{
 }
 
 /* ======================content-nav================== */
-.content-nav{
+.content-nav {
     width: 100vw;
     position: absolute;
     display: flex;
@@ -187,30 +181,29 @@ header nav ul li:hover{
     background-color: rgb(136, 174, 158);
 }
 
-.content-nav ul{
+.content-nav ul {
     margin: 0px;
     padding: 0px;
     display: flex;
 }
 
-.content-nav ul li{
+.content-nav ul li {
     list-style: none;
     display: block;
     padding: 20px 25px;
     cursor: pointer;
     border-right: solid 1px rgb(8, 88, 25);
-    
 }
 
-.content-nav ul .end{
+.content-nav ul .end {
     border: 0px;
 }
 
-.content-nav ul li:hover{
+.content-nav ul li:hover {
     background-color: rgb(74, 104, 91);
 }
 
-.content-nav ul li a{
+.content-nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -218,38 +211,38 @@ header nav ul li:hover{
 /* ====================end of content-nav======================= */
 
 /* =====================content-carousel===================== */
-.content-carousel{
+.content-carousel {
     margin-top: 130px;
 }
 /* ======================end of content-carousel================================ */
 
 /* =================================content-brands========================= */
 
-.content-brands{
+.content-brands {
     overflow: hidden;
     position: relative;
     margin: 20px 0px;
 }
 
-.content-brands .content-brands__track{
+.content-brands .content-brands__track {
     margin: 0px;
     padding: 0px;
     display: flex;
     transition: 1s ease-out;
 }
 
-.content-brands .content-brands__track li{
+.content-brands .content-brands__track li {
     list-style: none;
     display: block;
 }
 
-.content-brands .content-brands__track li img{
+.content-brands .content-brands__track li img {
     width: 178.5px;
 }
 
 /* ========================content-brands buttons================ */
 
-.content-brands__button{
+.content-brands__button {
     width: 60px;
     height: 100px;
     outline: 0;
@@ -261,17 +254,16 @@ header nav ul li:hover{
     opacity: 0.7;
 }
 
-.content-brands__button-right{
+.content-brands__button-right {
     right: 0px;
 }
 
-.content-brands__button .fa-solid{
+.content-brands__button .fa-solid {
     color: rgb(0, 0, 0);
     font-size: 35px;
-    
 }
 
-.be-hidden{
+.be-hidden {
     display: none;
 }
 /* ==========================end of content-brands buttons================  */
@@ -282,17 +274,17 @@ header nav ul li:hover{
 
 /* ========================best-seller=================== */
 
-.content-commodities .best-seller{
+.content-commodities .best-seller {
     position: relative;
     /* border: solid 1px black; */
 }
 
-.content-commodities .best-seller h2{
+.content-commodities .best-seller h2 {
     margin: 30px 0px 10px 0px;
     border-bottom: solid 1px rgb(154, 153, 153);
 }
 
-.content-commodities .best-seller__track{
+.content-commodities .best-seller__track {
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -300,7 +292,7 @@ header nav ul li:hover{
     transition: 0.5s ease-in;
 }
 
-.content-commodities .best-seller__track li{
+.content-commodities .best-seller__track li {
     list-style: none;
     display: block;
     width: 300px;
@@ -311,14 +303,14 @@ header nav ul li:hover{
     background-color: white;
 }
 
-.content-commodities .best-seller__track li a{
+.content-commodities .best-seller__track li a {
     text-decoration: none;
     display: block;
     height: 300px;
     overflow: hidden;
 }
 
-.content-commodities .best-seller__track li .commodity-status{
+.content-commodities .best-seller__track li .commodity-status {
     width: 35px;
     height: 32px;
     text-transform: uppercase;
@@ -330,32 +322,31 @@ header nav ul li:hover{
     background-color: rgb(219, 56, 56);
 }
 
-.content-commodities .best-seller__box{
+.content-commodities .best-seller__box {
     overflow: hidden;
 }
 
-.content-commodities .best-seller__track li img{
+.content-commodities .best-seller__track li img {
     width: 240px;
     height: 280px;
     display: block;
     margin: 0px auto;
 }
 
-.content-commodities .best-seller__track li .commodity-name{
+.content-commodities .best-seller__track li .commodity-name {
     width: 100%;
     text-align: center;
     margin: 5px 0px;
-    
 }
 
-.content-commodities .best-seller__track li .commodity-price{
+.content-commodities .best-seller__track li .commodity-price {
     width: 100%;
     text-align: center;
 }
 
 /* ========================best-seller buttons=================== */
 
-.best-seller__button{
+.best-seller__button {
     width: 60px;
     height: 100px;
     outline: 0;
@@ -367,10 +358,9 @@ header nav ul li:hover{
     opacity: 0.7;
 }
 
-.best-seller__button-right{
+.best-seller__button-right {
     right: 0px;
 }
-
 
 /* ========================end of best-seller buttons=================== */
 
@@ -379,5 +369,3 @@ header nav ul li:hover{
 /* =======================end of content-commodities================ */
 
 /* =================================End of content================================= */
-
-

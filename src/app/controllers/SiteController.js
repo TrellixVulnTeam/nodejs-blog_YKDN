@@ -1,14 +1,13 @@
-class SiteController{
-
+class SiteController {
     //[GET] /
-    home(req, res){
-        res.render('home')
+    home(req, res) {
+        res.render('home');
     }
 
     //[GET] /
-    login(req, res){
-        res.render('login')
+    login(req, res) {
+        res.render('login');
     }
 }
 
-module.exports= new SiteController;
+module.exports = new SiteController();
